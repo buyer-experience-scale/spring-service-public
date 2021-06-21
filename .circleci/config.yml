@@ -8,6 +8,7 @@ jobs:
       - checkout
       - run: ./mvnw test
       - run: ./mvnw package
+      - run: sleep 100
 
 workflows:
   pr:
